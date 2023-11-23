@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+#header {
+  background: url(https://s3-alpha-sig.figma.com/img/e680/a663/f06a93ab07eecf47822e521dc4b9cb7f?Expires=1701043200&Signature=PSFcchF5eZQRC3wdznYAv0B4bmuJePUJVd0XgjzDMa~6ygiHYyCNJjGEl~Rvq6eW5ZUKpiDjNS4RYitiVjWbyPzEaJuQCdplnXEXhr0kKkRaE6oS7osIS28dLxvNfbtHuDHcrNoVB7eJpw1RLkU-v0~OuIblEVTDwfTx6VGCDblLx9JAUU1akwc8OgWjCwHgt-Iun8PHJc49N5Z5tY7AGFswnVBd7LSH5ppKlwInTdWL6O5qKNip7Frrb0OTIleTfP7aordc5uc~so67xnlsHrLC2M22L0UdA29VIQd1quih8xj3rebBc9EJSOQSfHijTHN51C9widMt0msaWxDfWw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  height: 976px;
+}
+
+.header {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-text a {
+  padding: 0 30px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header-text button {
+  width: 120px;
+  height: 46px;
+  color: white;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  background: transparent;
+}
+
+.header-info {
+  margin-top: 400px;
+  text-align: center;
+}
+
+.header-info h1 {
+  color: #fff;
+  font-size: 71px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.header-info p {
+  padding: 35px 0 60px 0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.header-info button {
+  width: 160px;
+  height: 60px;
+  border-radius: 4px;
+  background: #5ab963;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#hiro {
+  margin: 120px 0 54px 0;
+}
+
+.hiro p span {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.hiro p {
+  color: #999;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 36px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-card {
+  padding: 51px 0 0 41px;
+  width: 377px;
+  height: 330px;
+  border: 1px solid #f7f7f7;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero-card h4 {
+  padding: 30px 0 30px 0;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.hero-card p {
+  color: #999;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px; /* 184.615% */
+}
+
+#info {
+  margin: 120px 0 115px 0;
+  height: 850px;
+  background: url(https://s3-alpha-sig.figma.com/img/230a/95e8/29f68a97825ba853d065e010d3aa9eff?Expires=1701043200&Signature=HWcAcO5dHUF1Ok1UCJgDjCMeZIuiYJzbp6x0CRYpojURyH7rEx1XC2iwyUGs~c1tSkAqK9tK8xNTqTXrNPmNlchruIY57T0EfNIJV98EwR-WRJVV29C4FdyV~Qei11ODRTnqwOvriM-YlwDDrLgDM7vxUZD7uQZfjmWpYU8pxf~mMZsTcW2LbRkMn7M~NV5U3FxdbmHKYvbqcFVxGwqUDnfwITajTYffD24wLiK4ph-W-H2SP7Ei5Znc6t0A31Pec9xtGVyxIBPBRMJB-k-PegRyFU62dEcn6ScBK21-cGZsVdYzfJ3xK9YjNEGhcr6OL9xU3RQZO9OfpUhqpHdJSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first span {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.first p {
+  text-align: center;
+  color: #999;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 36px;
+}
+
+.first h5 {
+  text-align: center;
+  padding-top: 8px;
+  color: #5ab963;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.title {
+  margin-top: 120px;
+  display: flex;
+}
+
+.title-text h4 span {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.first-text h4 {
+  color: #999;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 36px;
+}
+
+.title-text p {
+  color: #999;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 24px; /* 184.615% */
+}
+
+.title-text {
+  margin-left: 100px;
+}
+
+.title-text p {
+  padding-top: 25px;
+}
+
+.container hr {
+  margin-top: 116px;
+}
+
+#main-card {
+  margin-top: 200px;
+  margin-left: 365px;
+}
+
+.main-card {
+  display: flex;
+  align-items: center;
+}
+
+.main-card-text h5 span {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.main-card-text h5 {
+  color: #999;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 36px;
+}
+
+.main-card-text p {
+  padding-top: 30px;
+  color: #999;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.main-card-img {
+  margin-left: 102px;
+}
+
+.main-cards {
+  text-align: center;
+}
+
+.main-cards h1 {
+  padding: 110px 0 12px 0;
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.main-cards h4 {
+  color: #5ab963;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.mein {
+  margin: 120px 0 150px 0;
+}
+
+.company-mini {
+  display: flex;
+  align-items: center;
+}
+
+.company-mini div {
+  margin-left: 20px;
+  width: 30px;
+  height: 3px;
+  background: #5ab963;
+}
+
+.main-nav p span {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+}
+
+.main-nav p {
+  padding-top: 15px;
+  color: #999;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 36px;
+}
+
+.main-cards button {
+  width: 160px;
+  height: 60px;
+  border-radius: 4px;
+  background: #5ab963;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.company-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer {
+  background: #0a0e1a;
+  height: 399px;
+  margin-top: 200px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.footer-img h4 {
+  color: #666;
+  font-family: Libre Franklin;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-main {
+  display: flex;
+  align-items: center;
+  margin-left: 600px;
+}
+
+.footer-card a {
+  display: flex;
+  padding: 25px 0;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+
+.footer-cards a {
+  display: flex;
+  padding: 25px 0;
+  padding-left: 100px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+
+.main-nav a {
+  display: flex;
+  padding: 25px 0;
+  padding-left: 50px;
+}
+
+.main-img-card img {
+  margin-left: 100px;
+}
+
